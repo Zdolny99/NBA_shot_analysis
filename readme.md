@@ -22,7 +22,7 @@ pip install nba_api
 - yearwise data
   - data sorted by year
 - data_preprocess.py
-- # [todo ipynb filename]
+- #[todo ipynb filename]
 
 
 ## Run
@@ -34,5 +34,5 @@ python data_preprocess.py
 
 The below notebook will generate the graphs associated with the data:
 ```
-# [todo filename]
+#[todo filename]
 ```
