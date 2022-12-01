@@ -16,6 +16,14 @@ pip install numpy
 pip install matplotlib
 pip install nba_api
 ```
+## File Structure
+- Data
+  - completedata
+- yearwise data
+  - data sorted by year
+- data_preprocess.py
+- #[todo ipynb filename]
+
 
 ## Run
 
@@ -26,16 +34,5 @@ python data_preprocess.py
 
 The below notebook will generate the graphs associated with the data:
 ```
-[filename]
+# [todo filename]
 ```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
