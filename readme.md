@@ -18,15 +18,16 @@ pip install nba_api
 ```
 ## File Structure
 
-├── Data  line<br />
-│   ├── begin-with-the-crazy-ideas. Textile line<br />
-│   └── ... line<br />
-├── yearwise data line<br />
-│   ├── data sorted by year line<br />
-│   └── ... line<br />
-├── data_preprocess.py  line<br />
+``` bash
+├── Data
+│   ├── begin-with-the-crazy-ideas. Textile
+│   └── ...
+├── yearwise data
+│   ├── data sorted by year
+│   └── ...
+├── data_preprocess.py
 └── #[todo ipynb filename]
-
+```
 
 ## Run
 
