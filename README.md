@@ -44,6 +44,6 @@ pip install nba_api
 ├── yearwise data
 │   ├── season*.csv
 │   └── ...
-├── data_preprocess.py
-└── #[todo ipynb filename]
+├── Fetch-nba-data.py
+└── shot-analysis.ipynb
 ```
