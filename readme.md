@@ -22,7 +22,7 @@ pip install nba_api
 - yearwise data
   - data sorted by year
 - data_preprocess.py
-- #[todo ipynb filename]
+- # [todo ipynb filename]
 
 
 ## Run
