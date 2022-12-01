@@ -47,6 +47,3 @@ pip install nba_api
 ├── Fetch-nba-data.py
 └── shot-analysis.ipynb
 ```
-
-
-shot-analysis.ipynb
