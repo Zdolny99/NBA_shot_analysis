@@ -17,12 +17,15 @@ pip install matplotlib
 pip install nba_api
 ```
 ## File Structure
-- Data
-  - completedata
-- yearwise data
-  - data sorted by year
-- data_preprocess.py
-- #[todo ipynb filename]
+
+├── Data
+│   ├── begin-with-the-crazy-ideas. Textile
+│   └── ...
+├── yearwise data
+│   ├── data sorted by year
+│   └── ...
+├── data_preprocess.py
+└── #[todo ipynb filename]
 
 
 ## Run
