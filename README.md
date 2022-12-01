@@ -5,7 +5,7 @@ This project also contains raw data under the folders 'Data' and 'yearwise data'
 
 ## Objectives
 
-Analyzing NBA shot data to see how basketball has changed over time, through where players take shots, where shots are most successful, and, and if players are getting “better” 
+Analyzing NBA shot data to see how basketball has changed over time, through where players take shots, where shots are most successful, and, and if players are getting “better”.
 Demonstrate the trends behind the “3-point revolution”.
 
 ## Team Members
