@@ -20,10 +20,10 @@ pip install nba_api
 
 ``` bash
 ├── Data
-│   ├── begin-with-the-crazy-ideas. Textile
+│   ├── *.csv
 │   └── ...
 ├── yearwise data
-│   ├── data sorted by year
+│   ├── season*.csv
 │   └── ...
 ├── data_preprocess.py
 └── #[todo ipynb filename]
