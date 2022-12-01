@@ -1,7 +1,7 @@
 # NBA_shot_analysis
 This is the GitHub repository for NBA Basketball shot analysis project by group 9 of ECE 143 Fall 2022.
-This repo consists of a jupyter notebook named `analysis.ipynb` that contains all the shot-analysis done over the data. The notebook is divided into two parts - 1. Analysis of shots over time and 2. Analysis of shots over location on the field
-This project also contains raw data under the folders 'Data' and 'yearwise data' that has been fetched using nba_api. The data fetching process is done using fetch-nba-data.py.
+This repo consists of a jupyter notebook named `analysis.ipynb` 
+This project also contains raw data under the folders 'Data' and 'yearwise data' that has been fetched using nba_api. The data fetching process is done using Fetch-nba-data.py.
 
 ## Team Members
 - Mayank Sharma -- musharma@ucsd.edu
@@ -11,3 +11,12 @@ This project also contains raw data under the folders 'Data' and 'yearwise data'
 - Siddhant Jadhav -- sijadhav@ucsd.edu
 
 ## File description
+1. shot-analysis.ipynb - The main jupyter notebook that contains all the shot-analysis done over the data. The notebook is divided into two parts - 1. Analysis of shots over time and 2. Analysis of shots over location on the field.
+2. Fetch-nba-data.py - The python script to fetch, preprocess and clean all the data from nba_api. 
+
+## How to use the code
+1. Run the Fetch-nba-data.py and fetch all the data from NBA API. This file may take a few hours to run because the data is huge and we have to make multiple calls to the endpoint for each player and season, and also because the API is rate-limited and we can make only one request per second. Once this script runs, all the data is saved in `Data` folder. We use this data for analysis. Alternatively, you can just download the data that we have instead of going through the fetching process.
+2. Run the notebook `shot-analysis.ipynb` cell by cell for the analysis.
+
+## Requirements
+Python 3.7 or higher version is required. This project also has dependencies on `matplotlib`, `numpy`, `pandas`, `nba_api`.
