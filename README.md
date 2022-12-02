@@ -38,12 +38,14 @@ pip install nba_api
 ## File Structure
 
 ``` bash
-├── Data
+├── data
 │   ├── *.csv
 │   └── ...
 ├── yearwise data
 │   ├── season*.csv
 │   └── ...
-├── Fetch-nba-data.py
+├── fetch-nba-data.py
+├── nba_shot_analysis_group_9_slides.ipynb
 └── shot-analysis.ipynb
+
 ```
