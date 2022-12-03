@@ -20,7 +20,7 @@ Demonstrate the trends behind the “3-point revolution”.
 2. Fetch-nba-data.py - The python script to fetch, preprocess and clean all the data from nba_api. 
 
 ## How to use the code
-1. Data Fetching and preprocessing  - Run the Fetch-nba-data.py as `python Fetch-nba-data.py` from root of the project to fetch, preprocess, and clean all the data from NBA API. This may take a few hours to run because the data is huge and we have to make multiple calls to the endpoint for each player and season, and also because the API is rate-limited and we can make only one request per second. Once this script runs, all the data is saved in `Data` folder. We use this data for analysis. Alternatively, you can just download the data that we have instead of going through the fetching process.
+1. Data Fetching and preprocessing  - Run the Fetch-nba-data.py as `python Fetch-nba-data.py` from root of the project to fetch, preprocess, and clean all the data from NBA API. This may take a few hours to run because the data is huge and we have to make multiple calls to the endpoint for each player and season, and also because the API is rate-limited and we can make only one request per second. Once this script runs, all the data is saved in `data` folder. We use this data for analysis. Alternatively, you can just download the data that we have instead of going through the fetching process.
 2. Run the notebook `shot-analysis.ipynb` cell by cell for the analysis.
 
 ## Packages
